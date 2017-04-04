@@ -1,0 +1,13 @@
+body{background-image: url(../images/pizarra.jpg);}
+body{font-family: 'Bad Script', cursive; color:white;}
+#contacto{text-decoration:none;color:#ffff4d;font-size: 20px;}
+ul li{list-style-type: circle;}
+#caras{width:50%;}
+#logo{width:30%;}
+h1{font-size:60px;}
+h2{font-size:30px;}
+h3{font-size: 20px;}
+#curso{font-size: 20px;}
+.presentacion{float: left; width: 67%; margin-left:10%;}
+.informacion{float: left; width:20%; margin-top: 100px;}
+.tiposcontacto{clear: left;}
