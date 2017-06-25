@@ -1,1 +1,31 @@
+.icon-settings{
+  width: 200px;
+  height: 200px;
+}
 
+.icon-contact{
+  width: 150px;
+  height: 150px;
+}
+.circle{
+  width: 120px;
+     height: 120px;
+     border-radius: 50%;
+     background:$light;
+     text-align:center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items:center;
+}
+.small-circle-menu{
+  width: 110px;
+     height: 110px;
+     border-radius: 50%;
+     background:$primarycolor;
+     text-align:center;
+     display: flex;
+     flex-direction:column;
+     justify-content:center;
+     align-items: center;
+}

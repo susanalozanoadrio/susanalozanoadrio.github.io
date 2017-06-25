@@ -1,3 +1,13 @@
 .closed{
   display: none;
 }
+.open-menu{
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+.btn-small-menu{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

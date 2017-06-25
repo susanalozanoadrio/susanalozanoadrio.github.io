@@ -1,9 +1,13 @@
 *{box-sizing: border-box;}
 
 body{
-  width: 100% vh;
+  width: 100vw;
   background-color: $darck;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+p{
+  padding-left: 30px;
+  padding-right: 30px;
 }
