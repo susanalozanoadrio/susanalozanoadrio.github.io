@@ -1,0 +1,52 @@
+header{
+  background-color: transparent;
+  position: relative;
+  top:200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+
+}
+.about-me{
+  width: 100%;
+  position: relative;
+  top:300px;
+  display:flex;
+  flex-direction:column;
+  text-align: center;
+}
+
+
+footer{
+  background-color: transparent;
+  position:absolute;
+  bottom: 200px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+
+}
+
+.menu{
+  background-color:$primarycolor;
+  padding:5px;
+  width: 60%;
+
+}
+.list-menu{
+  padding: 20px;
+}
+
+.small-menu{
+background-color: $light;
+padding:5px;
+width: 60%;
+}
+
+.list-small-menu{
+  padding: 20px;
+}

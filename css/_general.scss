@@ -1,0 +1,9 @@
+*{box-sizing: border-box;}
+
+body{
+  width: 100% vh;
+  background-color: $darck;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
