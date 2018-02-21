@@ -1,12 +1,22 @@
 .icon-settings{
   width: 200px;
   height: 200px;
+  border: 1px solid;
+  border-color: $primarycolor;
+  border-radius: 100px;
+  box-shadow:  0 0 20px 8px $primarycolor;
+  animation: shadow 2s linear infinite;
+  @keyframes shadow{
+    from{box-shadow:  0 0 20px 8px $primarycolor;}
+    to{box-shadow:  0 0 0 0 $primarycolor}
+  }
 }
 
 .icon-contact{
   width: 150px;
   height: 150px;
 }
+
 .circle{
   width: 120px;
      height: 120px;
@@ -18,6 +28,7 @@
      justify-content: center;
      align-items:center;
 }
+
 .small-circle-menu{
   width: 110px;
      height: 110px;
